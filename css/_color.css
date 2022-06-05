@@ -1,0 +1,9 @@
+body {
+    background: var(--background-image);
+}
+
+header {
+    background: var(--background-repeat);
+    background: var(--background-color);
+}
+

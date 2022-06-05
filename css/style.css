@@ -1,0 +1,116 @@
+@import "_vars.css";
+@import "_color.css";
+
+.body {
+    font-size: 18px;
+}
+
+.header {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 18px;  
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu li a {
+    padding: 14px;
+    text-decoration: none;
+    color: #251f19;
+    font-weight:bold;
+    font-size: 22px;
+}
+
+.main {
+    padding: 4px 30px 4px 30px;
+    background-color: #251f1970;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.section_1 {
+    color: beige;
+}
+
+.title_1 {
+    margin-left: 80px;
+    background-color: #251f1974;
+    max-width: 15%;
+    padding-left: 8px;
+    border-radius: 18px;
+}
+
+.year {
+    color: rgb(93, 182, 35);
+}
+
+.title_3 {
+    color: rgb(117, 194, 162);
+}
+
+.text_1 {
+    font-family: Verdana;
+}
+.text_2 {
+    font-family:'Franklin Gothic Medium';
+    line-height: 32px;
+}
+
+.title_2 {
+    margin-left: 40px;
+    color: beige;
+    background-color: #251f1974;
+    max-width: 12%;
+    padding-left: 8px;
+    border-radius: 18px;
+}
+
+.img {
+    text-align: center;
+    border: 2px solid #061c0a82;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.footer {
+    max-width: 16%;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+}
+
+.menu_2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu_2 li a {
+    padding: 20px;
+}
